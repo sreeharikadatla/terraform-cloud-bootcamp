@@ -32,3 +32,8 @@ variable "db_password" {
   description = "RDS password"
   type        = string
 }
+
+variable "availability_zones" {
+  type        = list(string)
+  description = "List of availability zones to deploy resources into"
+}

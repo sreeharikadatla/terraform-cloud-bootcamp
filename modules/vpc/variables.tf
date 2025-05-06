@@ -18,8 +18,7 @@ variable "region" {
   type        = string
 }
 
-# Add the availability_zones variable
+
 variable "availability_zones" {
-  description = "List of availability zones"
-  type        = list(string)
+  type = list(string)
 }
